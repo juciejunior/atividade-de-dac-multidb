@@ -32,12 +32,17 @@ No Body (JSON) coloque o texto:
 Entre no aplicativo do Docker Desktop.
 
 ### 1. No terminal do Postgres do Docker Desktop
-Utilize o comando: **docker exec -it <nome_do_container_postgres> psql -U usuario -d atividadedb -c "SELECT * FROM tb_data;"**
+Utilize os comandos:
+**docker exec -it <nome_do_container_postgres>**
+
+**psql -U usuario -d atividadedb -c "SELECT * FROM tb_data;"**
 
 ### 2. No terminal do MongoDB do Docker Desktop
 Utilize os comandos: 
 
-**docker exec -it <nome_do_container_mongo> mongosh**
+**docker exec -it <nome_do_container_mongo>**
+
+**mongosh**
 
 **use atividadedb**
 
