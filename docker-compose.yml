@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  postgres-db:
+    image: postgres:latest
+    container_name: postgres_local
+    environment:
+      - POSTGRES_USER=usuario
+      - POSTGRES_PASSWORD=senha
+      - POSTGRES_DB=atividadedb
+    ports:
+      - "5432:5432"
+
+  mongo-db:
+    image: mongo:latest
+    container_name: mongo_local
+    ports:
+      - "27017:27017"
