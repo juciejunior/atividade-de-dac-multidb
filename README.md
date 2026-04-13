@@ -36,6 +36,9 @@ Utilize o comando: **docker exec -it <nome_do_container_postgres> psql -U usuari
 
 ### 2. No terminal do MongoDB do Docker Desktop
 Utilize os comandos: 
+
 **docker exec -it <nome_do_container_mongo> mongosh**
+
 **use atividadedb**
+
 **db.TbData.find().pretty()**
