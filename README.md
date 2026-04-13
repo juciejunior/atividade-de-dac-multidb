@@ -22,10 +22,15 @@ Inicie a aplicação através da sua IDE executando a classe MultidatabaseApplic
 
 Pelo **Insonia** ou **Postman** no metodo **POST**, coloque a URL **http://localhost:8080/dados**
 No Body (JSON) coloque o texto:
+
 {
+
   "code": "A1",
+
   "text": "Teste",
+
   "confirmed": true
+  
 }
 
 ## Intruções para verificar os dados no BD
